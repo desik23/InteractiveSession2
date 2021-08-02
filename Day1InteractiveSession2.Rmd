@@ -73,7 +73,7 @@ Now let's estimate the population over that range of times, given the capacity =
 
 
 ```{r}
-chipmunk_pop <- pop_logistic(capacity= 2580, time_yr = time_vec, init_pop = 230, rate = 0.32)
+chipmunk_pop <- pop_logistic(capacity= 2800, time_yr = time_vec, init_pop = 230, rate = 0.32)
 ```
 
 ### Create a data frame and plot chipmunk population over time
